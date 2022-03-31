@@ -12,4 +12,5 @@ public class JavaHomeWork {
     //stack memory , heap memory
     //valueOf ? toString parseInt ?
     //try with resources
+    //parametre ? argüman ?
 }
