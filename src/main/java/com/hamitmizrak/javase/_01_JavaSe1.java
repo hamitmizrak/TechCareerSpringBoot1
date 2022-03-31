@@ -48,5 +48,7 @@ public class _01_JavaSe1 {
         StringTokenizer stringTokenizer=new StringTokenizer("asd ads");
         //doğal Dil işleme : / *
 
+
+
     }
 }

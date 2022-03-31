@@ -1,11 +1,17 @@
 package com.hamitmizrak.javase;
 
+//extends izin vermiyor
+public final class _03_JavaSe3 {
 
-public class _02_JavaSe2 {
+    //globabal variable
+    //const
+    public final static int SAYI=44;
 
     //overloading:
-    public static void deneme() {
+    //override: ezmek
+    public static final void deneme() {
         System.out.println("voidli");
+
     }
 
     public static void deneme(String value) {
@@ -44,6 +50,19 @@ public class _02_JavaSe2 {
             // 0 1 3 4 5
         }
         //System.out.println(count);
+
+        //final :
+        final double pi=3.1415;
+        //değişkenler ==> sabit
+        //metotlar    ==> override edemezsin
+        //class       ==> extends izin vermiyor
+
+        //static:
+        // Havuza
+        // bellekte bir kere oluşur
+        // class.ozellikler
+        // new kullanabiliyor muyuz ?
+
 
     }
 }
