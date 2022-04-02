@@ -1,5 +1,7 @@
 package com.hamitmizrak.javase;
 
+import java.util.UUID;
+
 public class _06_JavaSe6 {
 
     public static void main(String[] args) {
@@ -30,6 +32,11 @@ public class _06_JavaSe6 {
 //        Random rastgele=new Random();
 //        int sayi=rastgele.nextInt(3)+1;
 //        System.out.println(sayi);
+
+//        rastgele 32 bitlik sayı
+        UUID uuid=UUID.randomUUID();
+        System.out.println(uuid);
+
 
     }
 
