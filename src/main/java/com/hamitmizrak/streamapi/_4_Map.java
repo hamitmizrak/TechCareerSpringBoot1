@@ -21,6 +21,8 @@ public class _4_Map {
         list.add(4);
         list.add(5);
 
+
+
         //her bir elemanı kendisi ile çarpıp  sonuça gösterin.
        // list.stream().map( (temp)->temp*temp).limit(3).forEach(System.out::println);  //collect(Collectors.toList());
 

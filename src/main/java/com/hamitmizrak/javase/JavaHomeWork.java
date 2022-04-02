@@ -13,4 +13,6 @@ public class JavaHomeWork {
     //valueOf ? toString parseInt ?
     //try with resources
     //parametre ? argüman ?
+
+    //preparedStatement,statement JDBC, singleton(design pattern) StreamApi, interface,inheritance,abstract
 }
