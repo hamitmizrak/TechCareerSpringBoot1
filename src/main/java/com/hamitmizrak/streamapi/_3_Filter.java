@@ -13,11 +13,16 @@ public class _3_Filter {
         List<String> list=new ArrayList<>();
         list.add("malatya");
         list.add("malatya");
+        list.add("malatya");
+        list.add("malatya");
+        list.add("malatya");
         list.add("ankara");
         list.add("denizli");
 
       //arrow function ()->{}
-        List<String> list2=  list.stream().filter( (temp)->!"malatya".equals(temp) ).collect(Collectors.toList());
+       // List<String> list2=  list.stream().filter( (temp)->"malatya".equals(temp) ).collect(Collectors.toList());
+        List<String> list2=  list.stream().filter( (temp)->"malatya".equals(temp) ).limit(2).collect(Collectors.toList());
+        //List<String> list2=  list.stream().filter( (temp)->!"malatya".equals(temp) ).collect(Collectors.toList());
         list2.forEach(System.out::print);
 
     }
