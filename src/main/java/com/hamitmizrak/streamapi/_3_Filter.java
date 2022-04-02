@@ -9,6 +9,7 @@ public class _3_Filter {
 
 
     public static void main(String[] args) {
+        //Lambda Expression
         //filter():  verilerde istediğimiz sonuçtaki çıkan verileri almak
         List<String> list=new ArrayList<>();
         list.add("malatya");
