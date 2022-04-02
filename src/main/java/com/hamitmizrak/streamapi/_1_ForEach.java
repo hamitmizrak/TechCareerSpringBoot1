@@ -7,6 +7,8 @@ import java.util.stream.Collectors;
 
 public class _1_ForEach {
     public static void main(String[] args) {
+        //forEach: verileri ekranda göstermek istersek
+
         //1.Durum Dizi
         String [] dizi={"malatya","istanbul","ankara"};
         Arrays.asList(dizi).stream().forEach(System.out::println);
