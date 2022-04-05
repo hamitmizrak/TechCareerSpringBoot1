@@ -16,7 +16,10 @@ PRIMARY KEY (`id`));
 -- https://www.tutorialspoint.com/h2_database/h2_database_create.htm
 CREATE TABLE admin (
    id INT NOT NULL,
-   name VARCHAR(150),
-   surname VARCHAR(20) ,
-   create_date DATE
+   admin_name VARCHAR(150),
+   admin_surname VARCHAR(20) ,
+   create_date TIMESTAMP NULL DEFAULT CURRENT_TIMESTAMP,
+   PRIMARY KEY (id));
 );
+
+INSERT INTO admin VALUES ( 'Ramesh', 'Ahmedabad');
