@@ -1,0 +1,14 @@
+package com.hamitmizrak.dto;
+
+import lombok.*;
+
+import java.util.Date;
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+public class BaseEntity {
+    //Nesne değişkeni
+    private String adminId;
+    private Date createdDate;
+}
