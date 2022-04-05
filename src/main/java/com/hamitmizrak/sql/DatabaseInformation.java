@@ -37,6 +37,5 @@ import lombok.Setter;
         this.userName="root";
         this.userPassword="";
         this.forNameData="org.h2.Driver";
-
     }
 }
