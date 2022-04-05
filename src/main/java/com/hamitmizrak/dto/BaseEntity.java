@@ -9,6 +9,6 @@ import java.util.Date;
 @NoArgsConstructor
 public class BaseEntity {
     //Nesne değişkeni
-    private String adminId;
+    private int adminId;
     private Date createdDate;
 }
