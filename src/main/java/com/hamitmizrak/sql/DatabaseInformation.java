@@ -19,11 +19,10 @@ import lombok.Setter;
     //parametresiz constructor
     public DatabaseInformation() {
         //Mysql
-        //this.url="jdbc:mysql://localhost:3306/techcareer_springboot_1";
-        //this.userName="root";
-        //this.userPassword="root";
-        //this.forNameData="com.mysql.jdbc.Driver";
-        //this.forNameData="com.mysql.cj.jdbc.Driver";
+        this.url="jdbc:mysql://localhost:3306/techcareer_springboot_1";
+        this.userName="root";
+        this.userPassword="root";
+        this.forNameData="com.mysql.jdbc.Driver";
 
         //Postgresql
         //this.url="jdbc:postgresql://localhost:5432/techcareer_springboot_1";
@@ -33,9 +32,9 @@ import lombok.Setter;
 
         //H2Db
         //http://localhost:8080/h2-console
-        this.url="jdbc:h2:file:./memory_persist/denemedb";
-        this.userName="root";
-        this.userPassword="";
-        this.forNameData="org.h2.Driver";
+        //this.url="jdbc:h2:file:./memory_persist/denemedb";
+        //this.userName="root";
+        //this.userPassword="";
+        //this.forNameData="org.h2.Driver";
     }
 }
