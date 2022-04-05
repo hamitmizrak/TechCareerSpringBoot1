@@ -5,6 +5,7 @@ import lombok.*;
 import java.util.Date;
 
 @Getter @Setter
+
 public class AdminDto extends BaseEntity {
     private String adminName;
     private String adminSurname;
@@ -14,7 +15,7 @@ public class AdminDto extends BaseEntity {
     }
 
     //parametreli constructor
-    public AdminDto(String adminId, Date createdDate, String adminName, String adminSurname) {
+    public AdminDto(int adminId, Date createdDate, String adminName, String adminSurname) {
         super(adminId, createdDate);
         this.adminName = adminName;
         this.adminSurname = adminSurname;
