@@ -6,8 +6,6 @@ import java.util.stream.Collectors;
 
 public class _4_Map {
 
-
-
     public static void main(String[] args) {
         //Lambda Expression
         //map():  verilerdeki her bir elemanı değiştirip,değiştirilmiş şeklini kullanmak
