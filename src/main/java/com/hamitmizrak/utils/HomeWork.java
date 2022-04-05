@@ -25,5 +25,7 @@ public   class HomeWork {
     Heap memory
     Stack Memory
 
+    Nesne değişkeni class Değişkeni
+    POJO
      */
 }
