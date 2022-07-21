@@ -29,6 +29,4 @@ public class AdminDto extends BaseEntity {
                 "} " + super.toString();
     }
 
-
-
 }

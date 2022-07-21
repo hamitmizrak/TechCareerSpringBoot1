@@ -11,15 +11,16 @@ public class AdminMainTest {
         AdminController adminController=new AdminController();
         AdminDto adminDto= new AdminDto();
 
+
         //CREATE
         //adminDto.setAdminName("HamitAdmin");
         //adminDto.setAdminSurname("MızrakAdmin");
         //adminController.create(adminDto);
 
         //UPDATE
-       // adminDto.setAdminId(1);
-       // adminDto.setAdminName("Hamit44");
-       // adminDto.setAdminSurname("Mızrak44");
+        // adminDto.setAdminId(1);
+        // adminDto.setAdminName("Hamit44");
+        // adminDto.setAdminSurname("Mızrak44");
         //adminController.update(adminDto);
 
         //DELETE
@@ -29,7 +30,6 @@ public class AdminMainTest {
         //LIST
         List<AdminDto> list=adminController.list();
         list.forEach(System.out::println);
-
 
     }
 }

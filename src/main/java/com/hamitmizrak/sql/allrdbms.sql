@@ -1,8 +1,10 @@
 
 -- Mysql
 DROP DATABASE `techcareer_springboot_1`;
-CREATE SCHEMA `techcareer_springboot_1` DEFAULT CHARACTER SET utf8 COLLATE utf8_turkish_ci ;
-use techcareer_springboot_1;
+CREATE SCHEMA `employee_management_system` DEFAULT CHARACTER SET utf8 COLLATE utf8_turkish_ci ;
+use employee_management_system;
+
+SELECT * FROM employee_management_system.admin;
 
 CREATE TABLE admin(
 "id INT NOT NULL AUTO_INCREMENT,
